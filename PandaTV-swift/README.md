@@ -1,6 +1,6 @@
 # PandaTV
 **Swift3.0 + MVVM 之熊猫TV**
-> **导读:** 现在直播比较热门，市面上有很多直播APP，比如熊猫TV、斗鱼、映客、喵播、战旗等等。本人屌丝一枚，平时也玩玩LOL，我不会告诉你我是青铜5的渣渣😂😂😂。 工作了没电脑玩，就看看直播，所以就有了这个仿写的项目。
+
 ****
 >**声明:** 1.这个项目中的接口都是用青花瓷[下载地址](https://pan.baidu.com/s/1pL6ClBX)抓取的，只用作学习。关于如何用青花瓷抓取数据, [请点击这里](http://www.cnblogs.com/dsxniubility/p/4621314.html)
 > 2.项目中的素材都是从熊猫TV.ipa中提取出来的，这里提供一个工具 [iOS Image Extractor](https://github.com/devcxm/iOS-Images-Extractor) 关于这个工具如何使用，请看[这篇文章](http://blog.csdn.net/github_33362155/article/details/51206299)
@@ -58,6 +58,6 @@
 
 ![我的截图](./XMTV/屏幕截图/我的.gif)
 
-本项目是用swift + MVVM 写的。 本人也是才接触swift不久，对swift3.0的了解也不是很透彻，所有项目中存在很多问题或者垃圾代码。**如果你有什么好的建议或者意见可以issu我，或者可以私信[我的简书](http://www.jianshu.com/u/66a861134217)，或者给我[发邮件](yang121yang@yeah.net)**
+本项目是用swift + MVVM 写的。 本人也是才接触swift不久，对swift3.0的了解也不是很透彻，所有项目中存在很多问题或者垃圾代码。**如果你有什么好的建议或者意见可以issu我，或者可以私信[我的简书](http://www.jianshu.com/u/66a861134217)
 
 **你觉得对你有所帮助的话，请献上宝贵的Star！！！ 不胜感激！！！**
