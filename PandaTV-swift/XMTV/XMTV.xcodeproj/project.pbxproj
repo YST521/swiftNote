@@ -89,6 +89,7 @@
 		04F53EBB1E26160E005C6D94 /* TableGamesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F53EBA1E26160E005C6D94 /* TableGamesVM.swift */; };
 		377C76F72AC32330BB61FC8C /* Pods_XMTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD12CE0F509F2C90D6330BF0 /* Pods_XMTV.framework */; };
 		9884176F1F0F6007006B46EB /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884176E1F0F6007006B46EB /* GuideViewController.swift */; };
+		988417741F0F6F59006B46EB /* SwiftLernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988417731F0F6F59006B46EB /* SwiftLernViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +177,7 @@
 		107E5E6D44644F9C65C645CC /* Pods-XMTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMTV/Pods-XMTV.debug.xcconfig"; sourceTree = "<group>"; };
 		1D41BCD9052A52ACCD2DD421 /* Pods-XMTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMTV/Pods-XMTV.release.xcconfig"; sourceTree = "<group>"; };
 		9884176E1F0F6007006B46EB /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		988417731F0F6F59006B46EB /* SwiftLernViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLernViewController.swift; sourceTree = "<group>"; };
 		AD12CE0F509F2C90D6330BF0 /* Pods_XMTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -223,6 +225,7 @@
 		04092C4D1E1BC90A002BC21D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				988417721F0F6F3C006B46EB /* swiftLern */,
 				04092C581E1BC90A002BC21D /* Home */,
 				04092C531E1BC90A002BC21D /* Game */,
 				04092C4E1E1BC90A002BC21D /* Entertainment */,
@@ -602,6 +605,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		988417721F0F6F3C006B46EB /* swiftLern */ = {
+			isa = PBXGroup;
+			children = (
+				988417731F0F6F59006B46EB /* SwiftLernViewController.swift */,
+			);
+			name = swiftLern;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -755,6 +766,7 @@
 				04092C901E1C0105002BC21D /* UIColor-Extension.swift in Sources */,
 				046CB6BD1E256DE100CF2CC3 /* BaseEntertainmentVC.swift in Sources */,
 				0450F2751E1CDF0B0091DC96 /* NetworkTool.swift in Sources */,
+				988417741F0F6F59006B46EB /* SwiftLernViewController.swift in Sources */,
 				0498FB481E2D278C00E28276 /* SearchListModel.swift in Sources */,
 				045CBC3E1E27848300DE3505 /* BaseRecommendVC.swift in Sources */,
 				04092C8E1E1BFC03002BC21D /* SearchVC.swift in Sources */,

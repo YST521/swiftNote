@@ -70,9 +70,22 @@ extension HomeVC {
         navigationItem.titleView = UIImageView(image: UIImage(named: "title_image"))
         view.addSubview(pageMenuView)
         view.addSubview(pageContentView)
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem.init(title: "    LearningSwift", style: .plain, target: self, action: #selector(HomeVC.learnVC))
+       
+        
+    }
+    func learnVC(){
+        
+        let swiftVC =  SwiftLernViewController()
+        self.navigationController?.pushViewController(swiftVC, animated: true)
+    
     }
     
 }
+
+
+
 
 //MARK:- PageTitleViewDelegate代理实现
 extension HomeVC : PageMenuViewDelegate{
